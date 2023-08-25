@@ -11,28 +11,28 @@ Gitの練習
 ■ls -a
 　⇒隠しコマンドも含めて全て確認する(gitファイル確認するにはこれ)
 
-1572247@TMCQDQF1243 MINGW64 ~
+
 $ cd ~/Desktop
 
-1572247@TMCQDQF1243 MINGW64 ~/Desktop
+~/Desktop
 $ cd intro_git/
 
-1572247@TMCQDQF1243 MINGW64 ~/Desktop/intro_git
+intro_git
 $ ls
 first.txt
 
-1572247@TMCQDQF1243 MINGW64 ~/Desktop/intro_git
-$ git init
-Initialized empty Git repository in C:/Users/1572247/Desktop/intro_git/.git/
 
-1572247@TMCQDQF1243 MINGW64 ~/Desktop/intro_git (master)
+$ git init
+Initialized empty Git repository in C:/...
+
+ ~/Desktop/intro_git (master)
 $ ls -a
 ./  ../  .git/  first.txt
 
-1572247@TMCQDQF1243 MINGW64 ~/Desktop/intro_git (master)
+~/Desktop/intro_git (master)
 $ ls -a .git
 ./  ../  HEAD  config  description  hooks/  info/  objects/  refs/
 
-1572247@TMCQDQF1243 MINGW64 ~/Desktop/intro_git (master)
+Desktop/intro_git (master)
 $
 
